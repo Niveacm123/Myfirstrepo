@@ -9,5 +9,20 @@ jobs:
       - name: Print Multi line script
         run: |
             echo "Hi Nivea"
-            echo Welcomw
+            echo Welcome
+  Second-Job:
+    runs-on:  ubuntu-latest
+    steps: 
+      - name: Print Hiiii
+        run: echo Hiiii
+      - name: Print Multi line script
+        run: |
+            echo Hiii
+            echo Helloo
+            
+
+	
+ 
+            
+            
         
