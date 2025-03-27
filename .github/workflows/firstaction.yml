@@ -15,3 +15,7 @@ jobs:
     steps: 
       - name: Print Hiiii
         run: echo Hiiii
+      - name: Print multilines
+        run: |
+           echo "Howdy"
+           echo How are you
