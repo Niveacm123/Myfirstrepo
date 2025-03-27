@@ -15,14 +15,3 @@ jobs:
     steps: 
       - name: Print Hiiii
         run: echo Hiiii
-      - name: Print Multi line script
-        run: |
-            echo "Hiii"
-            echo Helloo
-            
-
-	
- 
-            
-            
-        
